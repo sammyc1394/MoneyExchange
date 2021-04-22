@@ -9,10 +9,10 @@ public class collections {
 	final static int EX_TYPE_EXIT = 5;
 	
 	//exchange rate
-	final static double EX_RATE_USD = 1127.3;
-	final static double EX_RATE_EUR = 1349.4;
-	final static double EX_RATE_JPY = 1035.72 / 100; //1원의 환율
-	final static double EX_RATE_GBP = 1563.17;
+	final static double EX_RATE_USD = 1119.00;
+	final static double EX_RATE_EUR = 1344.59;
+	final static double EX_RATE_JPY = 1036.35 / 100; //1원의 환율
+	final static double EX_RATE_GBP = 1549.03;
 	
 	// to write csv file
 	static String ex_type = ""; // exchanged currency type
