@@ -21,13 +21,13 @@ public class output {
 		System.out.printf("********************************\n");
 		System.out.printf("*달러로 환전 결과 : [%.2f 달러]\n", exchangeResult);
 		System.out.println("*달러 지급 : " + (int)exchangeResult + "달러");
-		System.out.println("-100달러 : "+ ret[0]/100 + "장");
-		System.out.println("-50달러 : " + ret[1]%100/50 + "장");
-		System.out.println("-20달러 : " + ret[2]%100%50/20 + "장");
-		System.out.println("-10달러 : " + ret[3]%100%50%20/10 + "장");
-		System.out.println("-5달러 : " + ret[4]%100%50%20%10/5 + "장");
-		System.out.println("-2달러 : " + ret[5]%100%50%20%10%5/2 + "장");
-		System.out.println("-1달러 : " + ret[6]%100%50%20%10%5%2 + "장");
+		System.out.println("-100달러 : "+ ret[0] + "장");
+		System.out.println("-50달러 : " + ret[1] + "장");
+		System.out.println("-20달러 : " + ret[2] + "장");
+		System.out.println("-10달러 : " + ret[3] + "장");
+		System.out.println("-5달러 : " + ret[4] + "장");
+		System.out.println("-2달러 : " + ret[5] + "장");
+		System.out.println("-1달러 : " + ret[6] + "장");
 		System.out.printf("--------------------------------\n");
 	}
 	
